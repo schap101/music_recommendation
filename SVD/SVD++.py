@@ -78,8 +78,3 @@ algo.fit(trainset)
 
     # compute and print Root Mean Squared Error
     #accuracy.rmse(predictions, verbose=True)
-
-
-# predic for testset
-for row in range(0, testdata):
-    algo.predict(row.userID, row.itemID)
