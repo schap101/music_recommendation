@@ -5,4 +5,5 @@ Building a Music Recommendation System for a Project @HSLU. It is based on a Kag
 2. create a develpment venv
 3. install required libraries according to the requirements.txt file: $ pip install -r requirements.txt
 4. open jupyter with: $ jupyter notebook
-5. run the files for PMF, SVD, etc. to see the results.
+5. run first the Data_Preprocessing.ipynb to generate some csv-files to run PMF later
+6. run the files for PMF, SVD, etc. to see the results.
